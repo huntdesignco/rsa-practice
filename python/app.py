@@ -42,7 +42,7 @@ def hasAccess(user):
   domain = userObj['email'][userObj['email'].index('@') + 1 : ]
 
   if domain == None:
-    return false
+    return False
 
   if domain == requiredDomain:
     # Split the ip address
